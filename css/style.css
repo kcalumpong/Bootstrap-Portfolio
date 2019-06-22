@@ -66,6 +66,40 @@ h1 {
 
 }
 
+form {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    background-color: #4AAAA5;
+    color: white;
+    margin-bottom: 15px;
+
+}
+
+.form-group {
+    padding: 0px 20px;
+}
+
+.form-control-sm {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-radius: 0;
+}
+
+label {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+textarea {
+    border: 1px;
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+
 @media (max-width: 991px) {
     .navbar-expand-lg .navbar-nav {
         flex-direction: row;
