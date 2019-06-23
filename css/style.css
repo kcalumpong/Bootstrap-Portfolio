@@ -11,6 +11,8 @@ body {
 .card {
     margin: 0 auto;
     padding: 15px;
+    position: relative;
+    z-index: 3;
 }
 
 .card.mb-3 {
@@ -24,6 +26,11 @@ body {
 .navbar nav{
     background-color: white;
     width: 100%;
+    left: 0;
+    top: 0;
+    position: relative;  
+    z-index: 4;
+    
 }
 
 .nav-item {
@@ -53,10 +60,11 @@ h2 {
 
 .footer {
     position: fixed;
-    bottom: 0;
-    left: 0;
     background-color: #4AAAA5;
     width: 100%;
+    z-index: 3;
+    bottom: 0;
+    left: 0;
 }
 
 .col-md-3 {
@@ -116,6 +124,19 @@ textarea {
     margin-left: 15px;
 }
 
+.carousel-caption a {
+    background-color: rgba(74, 170, 165, .5);
+    padding: 5px 0;
+    text-decoration: none;
+    width: 220px;
+    color: #ffffff;
+    position: absolute;
+    left: -19px;
+    top: 5px;
+
+}
+
+
 
 
 @media (max-width: 991px) {
@@ -165,6 +186,17 @@ textarea {
     .img-thumbnail {
         margin: 0 auto;
     }
+
+    .grid-container {
+        grid-gap: 0px;
+    }
+
+    .grid-item{
+        margin-bottom: 15px;  
+       
+    }
+
+
 }
 
 
